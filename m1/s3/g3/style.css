@@ -1,0 +1,54 @@
+body {
+  height: 100vh;
+  background: white;
+}
+
+#newTask {
+  position: relative;
+}
+#newTask input {
+  width: 75%;
+  height: 45px;
+  font-size: 15px;
+  border: 2px solid grey;
+  color: blue;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+}
+
+#newTask button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: blue;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+#tasks {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+.task {
+  background-color: white;
+  height: 50px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+.task span {
+  font-size: 15px;
+  font-weight: 400;
+}
