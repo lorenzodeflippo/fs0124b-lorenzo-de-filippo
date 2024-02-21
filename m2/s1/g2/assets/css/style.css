@@ -127,6 +127,8 @@ main {
 .image-container {
   background-image: url("/assets/img/underline.svg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
   width: auto;
   height: auto;
 }
