@@ -1,0 +1,13 @@
+@import "reset";
+@import "_colori";
+@import "_font";
+@import "_spaziature";
+@import "bottoni";
+@import "mixins";
+@import "animazioni";
+
+@mixin title-big {
+  color: #2f075d;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
