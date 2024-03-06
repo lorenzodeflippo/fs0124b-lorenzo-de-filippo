@@ -1,0 +1,17 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-4 {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+  box-sizing: border-box;
+}
+.card {
+  width: 100%;
+}
+.img-custom {
+  width: 100%;
+}
