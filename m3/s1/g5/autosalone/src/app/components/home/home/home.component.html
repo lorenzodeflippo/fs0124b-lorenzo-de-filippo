@@ -1,0 +1,68 @@
+<div class="container-fluid text-center">
+  <div class="mt-4 p-5 bg-body-secondary text-dark rounded">
+    <img src="../../../assets/img/logo.png" />
+    <h1>Il tuo amichevole autosalone di quartiere!</h1>
+  </div>
+  <div>
+    <h3 class="text-center">I nostri marchi</h3>
+    <ul class="d-flex justify-content-center">
+      <li *ngFor="let brand of brands" class="list-unstyled">
+        <img
+          src="https://listcarbrands.com/wp-content/uploads/{{ brand }}"
+          width="50%"
+        />
+      </li>
+    </ul>
+  </div>
+  <hr />
+  <div>
+    <h3 class="text-center">Auto più richieste</h3>
+    <div class="row">
+      <div
+        class="col-6 d-flex justify-content-center"
+        *ngFor="let random of randomAuto"
+      >
+        <div
+          class="card"
+          style="width: 18rem"
+          [ngClass]="{
+            'bg-success': random.available,
+            'bg-danger': !random.available
+          }"
+        >
+          <img
+            src="https://www.kimballstock.com/pix/car/p/{{ random.modelImage }}"
+            class="card-img-top"
+            alt="{{ random.brandLogo }} {{ random.model }}"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ random.brand }} {{ random.model }}</h5>
+            <p class="card-text">
+              <span class="badge bg-primary me-1 text-uppercase"
+                >Anno: {{ random.year }}</span
+              >
+              <span class="badge bg-primary me-1 text-uppercase"
+                >Prezzo di listino: {{ random.price }}</span
+              >
+              <span
+                *ngIf="random.available; else elseSpan"
+                class="badge bg-primary me-1 text-uppercase"
+                >Pronta consegna: In giornata</span
+              >
+              <ng-template #elseSpan>
+                <span class="badge bg-primary me-1 text-uppercase"
+                  >Pronta consegna: Su prenotazione</span
+                >
+              </ng-template>
+            </p>
+            <a
+              [routerLink]="['/' + random.brandLogo.toLowerCase()]"
+              class="btn btn-primary"
+              >Tutte le nostre marche: {{ random.brand }}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
