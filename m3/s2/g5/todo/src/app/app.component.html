@@ -1,0 +1,8 @@
+<div class="container my-4">
+  <h1>Todo Today</h1>
+  <a [routerLink]="['/']" class="btn btn-primary me-4">Home</a>
+  <a [routerLink]="['todo']" class="btn btn-warning me-4">To do</a>
+  <a [routerLink]="['todoall']" class="btn btn-success me-4">To do Done</a>
+  <a [routerLink]="['todonot']" class="btn btn-info me-4">Users</a>
+  <router-outlet></router-outlet>
+</div>

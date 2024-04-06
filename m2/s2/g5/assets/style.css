@@ -1,0 +1,98 @@
+img:first-child {
+  margin-top: -5px;
+}
+nav li {
+  font-size: 10px;
+}
+.custom-bg-dark {
+  background-color: #141414;
+}
+.custom-bg-dark-gradient {
+  background: linear-gradient(to bottom, #000000, #121212);
+}
+.my-btn {
+  border: 1.5px solid rgba(255, 255, 255, 0.397);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding-inline: 0.8em;
+  display: flex;
+  align-content: stretch;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.1em 0.6em;
+}
+.hide-arrow::after {
+  display: none;
+}
+footer {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-top: 8em;
+  font-size: 12px;
+}
+.font-xs {
+  font-size: 10px;
+}
+@media screen and (max-width: 630px) {
+  footer {
+    margin-left: 1em;
+  }
+}
+.social::before,
+.social {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.social2::before {
+  color: rgba(255, 255, 255, 0.254);
+}
+
+.social p {
+  font-size: 0.7em;
+}
+
+.btn-footer {
+  border: 2px solid rgba(255, 255, 255, 0.397);
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.397);
+  padding: 0.4em 0.8em;
+  margin-block: 1em;
+  font-size: 0.7em;
+}
+
+/* profile */
+
+.main-profile {
+  color: rgba(255, 255, 255, 0.669);
+}
+.h1-profile {
+  font-size: 6em;
+  font-weight: 400;
+}
+.container-profile {
+  max-width: 500px;
+  margin-inline: auto;
+  margin-top: 2em;
+}
+
+.abs {
+  top: 92px;
+  left: 25px;
+}
+.abs:hover {
+  cursor: pointer;
+}
+.pen {
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.btn-profile {
+  border: 1px solid rgba(255, 255, 255, 0.397);
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.397);
+  padding: 0.4em 1.8em;
+  margin-block: 1em;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+}

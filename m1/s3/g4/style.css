@@ -1,0 +1,47 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.board {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-board {
+  width: 800px;
+}
+.user-board {
+  width: 500px;
+  margin-bottom: 25px;
+}
+.cell {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid aqua;
+}
+.text-center {
+  text-align: center;
+}
+.btn {
+  width: 20%;
+  padding: 10px;
+  background-color: aquamarine;
+}
+.input-default {
+  width: 20%;
+  margin: 20px;
+  margin-top: 20px;
+  padding: 10px;
+}
+input:focus {
+  outline: none;
+}
+.highlight {
+  background-color: blue;
+}

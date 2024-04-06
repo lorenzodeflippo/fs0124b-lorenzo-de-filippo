@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.honey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url(./assets/imgs/honey.jpg);
+  background-repeat: no-repeat;
+  background-color: bisque;
+  background-size: auto;
+  background-position: left;
+  margin-right: 20px;
+}
+.lorem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Netflix</title>
+  </head>
+  <body class="custom-bg-dark">
+    <nav
+      class="navbar navbar-expand-md navbar-dark custom-bg-dark-gradient mb-2">
+      <ul class="navbar-nav me-md-auto mb-lg-0">
+        <li>
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="./assets/netflix_logo.png"
+              alt="logo Netflix"
+              height="40" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main class="container-profile main-profile">
+      <h1 class="h1-proile">Edit Profile</h1>
+      <hr />
+      <div class="row">
+        <div class="col-3 position-relative">
+          <img class="img-fluid" src="./assets/avatar.png" alt="avatar icon" />
+          <div class="abs position-absolute translate-middle">
+            <img
+              src="data:image/png;base64,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"
+              alt=""
+              class="pen img-fuid rounded-circle d-none d-md-block" />
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="bg-secondary mb-2 p-1">
+            <h4 class="m-0 ms-2">Strive Student</h4>
+          </div>
+          <div class="dropdown">
+            <p class="mb-1">Language:</p>
+            <button
+              class="my-btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
+              English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </button>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item text-light" href="#">Italiano</a></li>
+              <li><a class="dropdown-item text-light" href="#">Deutsch</a></li>
+              <li>
+                <a class="dropdown-item text-light" href="#">Español</a>
+              </li>
+            </ul>
+          </div>
+          <hr />
+          <h5>Maturity Settings:</h5>
+          <span class="m-0 bg-dark mb-2 p-1 ps-3 pe-3"
+            >ALL MATURITY RATINGS</span
+          >
+          <p>Show titles of all maturity ratings for this profile.</p>
+          <button class="btn-profile">EDIT</button>
+          <hr />
+          <h5>Autoplay controls</h5>
+          <div class="form-check">
+            <input
+              class="form-check-input bg-dark border border-light-subtle p-2 rounded-0"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked />
+            <label class="form-check-label" for="flexCheckChecked">
+              Autoplay next episode in a series on all devices.
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input bg-dark border border-light-subtle p-2 rounded-0"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked />
+            <label class="form-check-label" for="flexCheckChecked">
+              Autoplay previews while browsing on all device.
+            </label>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <button class="btn-profile bg-light text-dark fw-bold me-3">SAVE</button>
+      <button class="btn-profile me-3">CANCEL</button
+      ><button class="btn-profile">DELETE PROFILE</button>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

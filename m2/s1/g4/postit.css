@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #666666;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: grey;
+}
+
+.child:hover {
+  animation-name: scala;
+  transform: scale (1.2);
+  transition: all 2s;
+  transform: scale(1.2);
+}
+#a {
+  background-color: #f9fac8;
+  transform: rotate(-10deg);
+}
+
+#b {
+  background-color: #caf9cb;
+  transform: rotate(5deg);
+}
+
+#c {
+  background-color: #c3c4ef;
+  transform: rotate(-15deg);
+}
+
+#d {
+  background-color: #caf9cb;
+  transform: rotate(5deg);
+}
+
+#e {
+  background-color: #f9fac8;
+  transform: rotate(-10deg);
+}
+
+#f {
+  background-color: #c3c4ef;
+  transform: rotate(-15deg);
+}
+
+#g {
+  background-color: #f9fac8;
+  transform: rotate(-10deg);
+}
+
+#h {
+  background-color: #caf9cb;
+  transform: rotate(5deg);
+}
+
+@keyframes scala {
+  from {
+    width: 150px;
+    height: 150px;
+    transform: rotate(-10deg);
+  }
+  to {
+    width: 250px;
+    height: 250px;
+    transform: rotate(0);
+  }
+}
