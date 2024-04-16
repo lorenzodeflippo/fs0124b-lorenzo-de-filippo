@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef8e5669-c205-4a57-ab65-1e8e2d91e9a2" name="Changes" comment="java2">
+      <change afterPath="$PROJECT_DIR$/m4/s1/g2/java2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4/s1/g2/java2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4/s1/g2/java2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4/s1/g2/java2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4/s1/g2/java2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4/s1/g2/java2/src/java2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/s1/g1/java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m4/s1/g1/java/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/m4/s1/g1/java" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lorenzodeflippo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lorenzodeflippo/fs0124b-lorenzo-de-filippo.git",
+    "accountId": "d4a9e256-0207-447a-b67d-0bc611dbf40b"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2fBcYgjHKNMGjKPCdMNn9SY4r1X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "fs0124b-lorenzo-de-filippo",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/lorenzodefilippo/Desktop/fs0124b-lorenzo-de-filippo"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef8e5669-c205-4a57-ab65-1e8e2d91e9a2" name="Changes" comment="" />
+      <created>1713277961910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713277961910</updated>
+    </task>
+    <task id="LOCAL-00001" summary="java2">
+      <option name="closed" value="true" />
+      <created>1713278013692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713278013692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java2" />
+    <option name="LAST_COMMIT_MESSAGE" value="java2" />
+  </component>
+</project>
