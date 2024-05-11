@@ -1,0 +1,152 @@
+{
+  "users": [
+    {
+      "email": "defilippolorenzo@gmail.com",
+      "password": "$2a$10$Y4yGNCrDdHbasi07JBZos.sH2CV4s7y3reB4nK.xesG1aruTsxwoS",
+      "name": "Lorenzo",
+      "id": 1
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "titolo": "Il Padrino",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Marlon Brando",
+      "anno": 1972
+    },
+    {
+      "id": 2,
+      "titolo": "Forrest Gump",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Tom Hanks",
+      "anno": 1994
+    },
+    {
+      "id": 3,
+      "titolo": "Inception",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Leonardo DiCaprio",
+      "anno": 2010
+    },
+    {
+      "id": 4,
+      "titolo": "La La Land",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Ryan Gosling",
+      "anno": 2016
+    },
+    {
+      "id": 5,
+      "titolo": "Pulp Fiction",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "John Travolta",
+      "anno": 1994
+    },
+    {
+      "id": 6,
+      "titolo": "The Shawshank Redemption",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Tim Robbins",
+      "anno": 1994
+    },
+    {
+      "id": 7,
+      "titolo": "Fight Club",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Edward Norton",
+      "anno": 1999
+    },
+    {
+      "id": 8,
+      "titolo": "Inception",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Leonardo DiCaprio",
+      "anno": 2010
+    },
+    {
+      "id": 9,
+      "titolo": "The Dark Knight",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Christian Bale",
+      "anno": 2008
+    },
+    {
+      "id": 10,
+      "titolo": "Interstellar",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Matthew McConaughey",
+      "anno": 2014
+    },
+    {
+      "id": 11,
+      "titolo": "The Matrix",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Keanu Reeves",
+      "anno": 1999
+    },
+    {
+      "id": 12,
+      "titolo": "The Godfather: Part II",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Al Pacino",
+      "anno": 1974
+    },
+    {
+      "id": 13,
+      "titolo": "Schindler's List",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Liam Neeson",
+      "anno": 1993
+    },
+    {
+      "id": 14,
+      "titolo": "The Lord of the Rings: The Return of the King",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Elijah Wood",
+      "anno": 2003
+    },
+    {
+      "id": 15,
+      "titolo": "Titanic",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Leonardo DiCaprio",
+      "anno": 1997
+    },
+    {
+      "id": 16,
+      "titolo": "Goodfellas",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Robert De Niro",
+      "anno": 1990
+    },
+    {
+      "id": 17,
+      "titolo": "The Departed",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Leonardo DiCaprio",
+      "anno": 2006
+    },
+    {
+      "id": 18,
+      "titolo": "Gladiator",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Russell Crowe",
+      "anno": 2000
+    },
+    {
+      "id": 19,
+      "titolo": "The Silence of the Lambs",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Anthony Hopkins",
+      "anno": 1991
+    },
+    {
+      "id": 20,
+      "titolo": "The Green Mile",
+      "cover": "https://picsum.photos/200/300",
+      "protagonista": "Tom Hanks",
+      "anno": 1999
+    }
+  ]
+}
